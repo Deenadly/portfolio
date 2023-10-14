@@ -8,7 +8,7 @@ import redux from "../../assets/redux.png";
 import query from "../../assets/query.png";
 import router from "../../assets/router.png";
 import git from "../../assets/git.png";
-
+import Button from "../../component/button/Button";
 const About = () => {
   return (
     <>
@@ -33,9 +33,8 @@ const About = () => {
               <span>Projects</span> section.
               <br />I also like sharing content related to the stuff that I have
               learned over the years in <span>Web Development</span> so it can
-              help other people of the Dev Community.
-           
-              Feel free to Connect or Follow me on my{" "}
+              help other people of the Dev Community. Feel free to Connect or
+              Follow me on my{" "}
               <a
                 href="https://www.linkedin.com/in/deenadhayalan-dev/"
                 rel="noreferrer"
@@ -44,12 +43,13 @@ const About = () => {
                 Linkedin
               </a>{" "}
               where I post useful content related to Web Development and
-              Programming<br/> I'm open to <span>Job</span> opportunities where I can
+              Programming
+              <br /> I'm open to <span>Job</span> opportunities where I can
               contribute, learn and grow. If you have a good opportunity that
               matches my skills and experience then don't hesitate to contact
               me.
             </p>
-            <button className="contact-btn">CONTACT</button>
+            <Button name="CONTACT" value="contact-btn"/>
           </div>
           <div className="skills">
             <h3 className="tittle-skill">MY SKILLS</h3>

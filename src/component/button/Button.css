@@ -1,0 +1,33 @@
+.contact-btn {
+  background: #7843e9;
+  padding: 0.8rem 2rem;
+  color: #fff;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 800;
+  margin: 1rem 0rem 1rem 1.2rem;
+  border: none;
+  transition: transform 0.3s;
+}
+.contact-btn:hover {
+  transform: translatey(-3px);
+  background: #682cea;
+}
+.project-btn {
+  background: #7843e9;
+  padding: 1.1rem 4.2rem;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  border: none;
+  text-transform: uppercase;
+  margin-left: 55px;
+  transition: transform 0.3s;
+}
+.project-btn:hover {
+  transform: translatey(-3px);
+  background: #682cea;
+}

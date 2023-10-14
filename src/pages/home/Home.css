@@ -1,0 +1,26 @@
+.home-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.home-content {
+  margin-top: 200px;
+}
+.name-items {
+  height: 120px;
+  width: 300px;
+  font-size: 35px;
+  font-weight: 790;
+  text-align: center;
+  line-height: 50px;
+  letter-spacing: 1px;
+  font-family: "Gill Sans", sans-serif;
+  margin-left: 15px;
+}
+.home-items {
+  text-align: center;
+  height: 150px;
+  width: 330px;
+  line-height: 29px;
+  font-family: "Gill Sans", sans-serif;
+}
