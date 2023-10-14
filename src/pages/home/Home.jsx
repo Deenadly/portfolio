@@ -20,10 +20,12 @@ const Home = () => {
           <div className="home-items">
             A Frontend focused Web Developer building the Frontend of Websites
             and Web Applications that leads to the success of the overall
-            product
+            product.
           </div>
           <Button name="projects" value="project-btn" />
-          <div className="mouse"></div>
+          <div className="mouse-con">
+            <div className="mouse"></div>
+          </div>
         </div>
       </div>
       <About />
