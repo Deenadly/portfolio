@@ -31,3 +31,52 @@
   transform: translatey(-3px);
   background: #682cea;
 }
+@media (min-width: 760px) {
+  .project-btn {
+    margin-left: 325px;
+    padding: 1.3rem 5rem;
+    font-size: 16px;
+    font-weight: 900;
+  }
+  .project-btn:hover {
+    transform: translatey(5px);
+  }
+  .mouse {
+    width: 25px;
+    height: 40px;
+    border: 2px solid #333;
+    border-radius: 60px;
+    position: relative;
+    margin-left: 445px;
+    margin-top: 175px;
+
+    /* overflow: hidden; */
+  }
+  .mouse::before {
+    content: "";
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    top: 7px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    border-radius: 50%;
+    opacity: 1;
+    animation: wheel 1.3s infinite;
+    -webkit-animation: wheel 1.3s infinite;
+  }
+  @keyframes wheel {
+    to {
+      opacity: 0;
+      top: 27px;
+    }
+  }
+
+  @-webkit-keyframes wheel {
+    to {
+      opacity: 0;
+      top: 27px;
+    }
+  }
+}

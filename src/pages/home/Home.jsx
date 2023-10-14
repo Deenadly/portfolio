@@ -2,6 +2,7 @@ import React from "react";
 import banner from "../../assets/bg1.jpg";
 import "./Home.css";
 import Button from "../../component/button/Button";
+import About from "../about/About.jsx";
 
 const Home = () => {
   return (
@@ -22,8 +23,10 @@ const Home = () => {
             product
           </div>
           <Button name="projects" value="project-btn" />
+          <div className="mouse"></div>
         </div>
       </div>
+      <About />
     </>
   );
 };
