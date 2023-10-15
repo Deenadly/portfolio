@@ -8,7 +8,7 @@ import twitter from "../../assets/twitter.png";
 import instagram from "../../assets/instagram.png";
 import github from "../../assets/github.png";
 import gmail from "../../assets/gmail.png";
-
+import Project from "../project/Project";
 const Home = () => {
   return (
     <>
@@ -36,7 +36,7 @@ const Home = () => {
             <img src={github} alt="" />
           </a>
           <a
-            href="https://mail.google.com/mail/u/0/#inbox?compose=new"
+            href="https://deenadhayal007@gmail.com"
             rel="noreferrer"
             target="_blank"
           >
@@ -71,6 +71,7 @@ const Home = () => {
         </div>
       </div>
       <About />
+      <Project />
     </>
   );
 };

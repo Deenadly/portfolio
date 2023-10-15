@@ -26,7 +26,7 @@ const About = () => {
         <div className="about-content">
           <div className="about-known">
             <h3 className="tittle-known">GET TO kNOW ME!</h3>
-            <p className="known-item">
+            <div className="known-item">
               I'm a <span>Frontend Web Developer</span> building the Front-end
               of Websites and Web Applications that leads to the success of the
               overall product. Check out some of my work in the{" "}
@@ -48,8 +48,8 @@ const About = () => {
               contribute, learn and grow. If you have a good opportunity that
               matches my skills and experience then don't hesitate to contact
               me.
-            </p>
-            <Button name="CONTACT" value="contact-btn"/>
+            </div>
+            <Button name="CONTACT" value="contact-btn" />
           </div>
           <div className="skills">
             <h3 className="tittle-skill">MY SKILLS</h3>

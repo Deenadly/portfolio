@@ -1,12 +1,12 @@
 .contact-btn {
   background: #7843e9;
-  padding: 0.8rem 2rem;
+  padding: 0.9rem 2.4rem;
   color: #fff;
   letter-spacing: 1px;
   border-radius: 5px;
   font-size: 12px;
   font-weight: 800;
-  margin: 1rem 0rem 1rem 1.2rem;
+  margin: 0rem 0rem 1rem 1rem;
   border: none;
   transition: transform 0.3s;
 }
@@ -16,8 +16,8 @@
 }
 .project-btn {
   background: #7843e9;
-  height: 60px;
-  width: 200px;
+  height: 55px;
+  width: 225px;
   color: #fff;
   border-radius: 5px;
   font-size: 15px;
@@ -25,25 +25,48 @@
   letter-spacing: 1px;
   border: none;
   text-transform: uppercase;
-  /* margin-left: 55px; */
   transition: transform 0.3s;
 }
 .project-btn:hover {
   transform: translatey(-3px);
   background: #682cea;
 }
+.casestudy-btn {
+  background: #7843e9;
+  padding: 1rem 2.4rem;
+  color: #fff;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  font-size: 13px;
+  font-weight: 700;
+  border: none;
+  text-transform: uppercase;
+  transition: transform 0.3s;
+}
+.casestudy-btn:hover {
+  transform: translatey(-3px);
+  background: #682cea;
+}
+
 @media (min-width: 760px) {
   .contact-btn {
     padding: 1.1rem 2.2rem;
     font-size: 15px;
   }
   .project-btn {
-    font-size: 16px;
-    font-weight: 900;
-    height: 60px;
-    width: 250px;
+    font-size: 14px;
+    font-weight: 780;
+    height: 50px;
+    width: 210px;
+    letter-spacing: 0;
   }
   .project-btn:hover {
     transform: translatey(-5px);
+  }
+  .casestudy-btn {
+    margin-left: 15px;
+  font-size: 12px;
+
+    padding: 0.9rem 2.1rem;
   }
 }
