@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import Home from "./pages/home/Home";
+import Project from "./pages/project/Project";
 // import About from "./pages/about/About";
 // import Navbar from "./component/navbar/Navbar";
 
@@ -12,6 +13,7 @@ root.render(
     {/* <Navbar /> */}
     {/* <About /> */}
     <Home />
+    {/* <Project /> */}
   </React.StrictMode>
 );
 
