@@ -1,0 +1,44 @@
+.maanfree-single-container {
+  height: 105vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  position: relative;
+}
+.manfree-single-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+.manfree-single-title {
+  font-size: 35px;
+  color: rgb(17, 17, 17);
+  text-align: center;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 1px;
+  font-family: "Gill Sans", sans-serif;
+}
+.maanfrees-single-item {
+  text-align: center;
+  line-height: 30px;
+  font-family: "Gill Sans", sans-serif;
+  padding: 1rem;
+}
+@media (min-width: 760px) {
+  .manfree-single-title {
+    font-size: 35px;
+    padding-top: 40px;
+  }
+  .maanfrees-single-item {
+    font-size: 16px;
+    width: 100%;
+    max-width: 570px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    line-height: 1.6;
+  }
+}

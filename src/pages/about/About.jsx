@@ -2,12 +2,12 @@ import React from "react";
 import "./About.css";
 import html from "../../assets/html.png";
 import css from "../../assets/css.png";
-import java from "../../assets/js.svg";
+import java from "../../assets/js.png";
 import react from "../../assets/react.png";
 import redux from "../../assets/redux.png";
 import query from "../../assets/query.png";
 import router from "../../assets/router.png";
-import git from "../../assets/git.png";
+import git from "../../assets/gith.png";
 import Button from "../../component/button/Button";
 const About = () => {
   return (

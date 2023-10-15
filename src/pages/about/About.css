@@ -74,6 +74,9 @@
   border-radius: 15px;
   padding: 10px;
 }
+.skill-items > img:hover {
+  background-color: rgba(120, 67, 233, 0.2);
+}
 span {
   font-weight: bold;
 }

@@ -5,6 +5,7 @@ import reportWebVitals from "./reportWebVitals";
 import Home from "./pages/home/Home";
 // import Project from "./pages/project/Project";
 import About from "./pages/about/About";
+import Manfree from "./pages/casestudy/Manfree";
 // import Navbar from "./component/navbar/Navbar";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -12,8 +13,9 @@ root.render(
   <React.StrictMode>
     {/* <Navbar /> */}
     {/* <About /> */}
-    <Home />
+    {/* <Home /> */}
     {/* <Project /> */}
+    <Manfree />
   </React.StrictMode>
 );
 
