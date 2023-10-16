@@ -51,7 +51,7 @@ const About = () => {
             </div>
             <Button name="CONTACT" value="contact-btn" />
           </div>
-          <div className="skills">
+          <div className="skillss">
             <h3 className="tittle-skill">MY SKILLS</h3>
             <div className="skill-items">
               <img src={html} alt="" />

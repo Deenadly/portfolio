@@ -3,14 +3,15 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 // import Footer from "./component/footer/Footer";
-// import Home from "./pages/home/Home";
+import Home from "./pages/home/Home";
+import { BrowserRouter } from "react-router-dom";
 // import Project from "./pages/project/Project";
 // import About from "./pages/about/About";
 // import Manfree from "./pages/casestudy/Manfree";
 // import Navbar from "./component/navbar/Navbar";
 // import Netflix from "./pages/casestudy/Netflix";
 // import Portfolio from "./pages/casestudy/Portfolio";
-
+import App from "./App";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
@@ -22,6 +23,9 @@ root.render(
     {/* <Footer /> */}
     {/* <Netflix /> */}
     {/* <Portfolio /> */}
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
   </React.StrictMode>
 );
 

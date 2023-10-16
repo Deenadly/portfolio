@@ -5,7 +5,7 @@ import About from "../pages/about/About";
 import Project from "../pages/project/Project";
 import Footer from "../component/footer/Footer";
 import Manfree from "../pages/casestudy/Manfree";
-import Netflix from "../pages/casestudy/netflix";
+import Netflix from "../pages/casestudy/Netflix";
 import Portfolio from "../pages/casestudy/Portfolio";
 
 const AppRoutes = () => {

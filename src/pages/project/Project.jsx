@@ -20,7 +20,7 @@ const Project = () => {
         </div>
         <div className="project-list">
           <div className="project-item">
-            <img className="manfree" src={manfree} alt="" />
+            <img className="manfreer" src={manfree} alt="" />
             <div className="project-details">
               <div className="project-title-manfree">MANFREE</div>
               <div className="project-description">
@@ -33,7 +33,7 @@ const Project = () => {
             </div>
           </div>
           <div className="project-item">
-            <img className="manfree" src={netflix} alt="" />
+            <img className="manfreer" src={netflix} alt="" />
             <div className="project-details">
               <div className="project-title-manfree">NETFLIX-CLONE</div>
               <div className="project-description">
@@ -47,7 +47,7 @@ const Project = () => {
             </div>
           </div>
           <div className="project-item">
-            <img className="manfree" src={manfree} alt="" />
+            <img className="manfreer" src={manfree} alt="" />
             <div className="project-details">
               <div className="project-title-manfree">PORTFOLIO</div>
               <div className="project-description">
