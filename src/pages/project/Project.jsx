@@ -38,8 +38,10 @@ const Project = () => {
               <div className="project-title-manfree">NETFLIX-CLONE</div>
               <div className="project-description">
                 I recreated the official web app of Netflix's streaming platform
-                because I was drawn to its beautiful UI.It was  a great experience 
-                for me to build the entire frontend.
+                because I was drawn to its beautiful UI.It was a great
+                experience for me to build the entire frontend.honing my skills
+                and igniting my passion for creating captivating web
+                experiences.
               </div>
               <Button name="case study" value="casestudy-btn" />
             </div>
@@ -52,7 +54,8 @@ const Project = () => {
                 I developed my portfolio in an impressive manner to showcase my
                 skills and projects. It was a rewarding experience for me to
                 create a platform that reflects my passion for design and
-                development.
+                development.it's a visual narrative of my dedication to design
+                and development.
               </div>
               <Button name="case study" value="casestudy-btn" />
             </div>

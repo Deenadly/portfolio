@@ -1,0 +1,128 @@
+.portfolio-single-container {
+  height: 105vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  position: relative;
+}
+.portfolio-single-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+.portfolio-single-title {
+  font-size: 35px;
+  color: rgb(17, 17, 17);
+  text-align: center;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 1px;
+  font-family: "Gill Sans", sans-serif;
+}
+.portfolio-single-item {
+  text-align: center;
+  line-height: 30px;
+  font-family: "Gill Sans", sans-serif;
+  padding: 1rem;
+}
+.portfolio-single-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.9rem;
+}
+.portfolio {
+  margin-top: 45px;
+  margin-bottom: 30px;
+  width: 100%;
+}
+.project-single-details {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+.project-title-single-portfolio {
+  font-size: 18px;
+  font-weight: 650;
+}
+.project-single-description {
+  font-size: 14px;
+  padding: 0.2rem;
+  line-height: 25px;
+  margin-top: 20px;
+}
+.tool-title-single-portfolio {
+  margin-top: 30px;
+  font-size: 18px;
+  font-weight: 650;
+  margin-bottom: 25px;
+}
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 25px;
+}
+.skills__skill {
+  padding: 0.7rem 1rem;
+  font-size: 0.9rem;
+  background: rgba(153, 153, 153, 0.2);
+  border-radius: 5px;
+  font-weight: 600;
+  color: #666;
+}
+.projects-btn {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: baseline;
+}
+@media (min-width: 760px) {
+  .portfolio-single-title {
+    font-size: 42px;
+    padding-top: 40px;
+  }
+  .portfolio-single-item {
+    font-size: 19px;
+    width: 100%;
+    max-width: 750px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    line-height: 1.6;
+  }
+  .skills {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    margin-bottom: 25px;
+  }
+  .portfolio {
+    width: 60%;
+  }
+  .project-single-details {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+  .project-title-single-portfolio {
+    margin-top: 40px;
+    font-size: 25px;
+    font-weight: 650;
+  }
+  .project-single-description {
+    font-size: 17px;
+    line-height: 35px;
+    margin-top: 20px;
+  }
+  .projects-btn {
+    display: flex;
+    flex-direction: row;
+  }
+}
+@media (min-width: 940px) {
+  .project-single-details {
+    margin-bottom: 80px;
+  }
+}

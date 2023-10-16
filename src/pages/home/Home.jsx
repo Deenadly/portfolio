@@ -9,6 +9,7 @@ import instagram from "../../assets/instagram.png";
 import github from "../../assets/github.png";
 import gmail from "../../assets/gmail.png";
 import Project from "../project/Project";
+import Footer from "../../component/footer/Footer";
 const Home = () => {
   return (
     <>
@@ -72,6 +73,7 @@ const Home = () => {
       </div>
       <About />
       <Project />
+      <Footer />
     </>
   );
 };

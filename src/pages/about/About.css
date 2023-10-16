@@ -115,3 +115,31 @@ span {
     max-width: 20px;
   }
 }
+@media (min-width: 940px) {
+  .about-title {
+    font-size: 2.1rem;
+    margin-bottom: 54px;
+  }
+  .about-subtitle {
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0;
+    max-width: 750px;
+    margin-bottom: 60px;
+  }
+  .tittle-known {
+    font-size: 24px;
+  }
+  .known-item {
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 35px;
+    margin-bottom: 12px;
+  }
+  .about-content {
+    gap: 40px;
+  }
+  .tittle-skill {
+    font-size: 24px;
+  }
+}

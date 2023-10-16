@@ -92,15 +92,25 @@
     transform: translatey(-5px);
   }
   .casestudy-btn {
-    margin-left: 15px;
+    margin-left: 13px;
     font-size: 12px;
-
-    padding: 0.9rem 2.1rem;
+    padding: 0.9rem 2rem;
   }
   .live-btn {
     padding: 1.1rem 2.9rem;
   }
   .back-btn {
     padding: 1rem 3rem;
+  }
+}
+@media (min-width: 940px) {
+  .project-btn {
+    font-size: 18px;
+    height: 55px;
+    width: 250px;
+  }
+  .casestudy-btn {
+    font-size: 14px;
+    padding: 1.2rem 3rem;
   }
 }

@@ -3,6 +3,7 @@ import Button from "../../component/button/Button";
 import banner from "../../assets/bg1.jpg";
 import "./Manfree.css";
 import manfree from "../../assets/manfree.png";
+import Footer from "../../component/footer/Footer";
 
 const Manfree = () => {
   return (
@@ -63,6 +64,7 @@ const Manfree = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 };
