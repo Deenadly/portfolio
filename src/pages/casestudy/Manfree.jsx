@@ -2,6 +2,8 @@ import React from "react";
 import Button from "../../component/button/Button";
 import banner from "../../assets/bg1.jpg";
 import "./Manfree.css";
+import manfree from "../../assets/manfree.png";
+
 const Manfree = () => {
   return (
     <>
@@ -21,6 +23,44 @@ const Manfree = () => {
             official product.
           </div>
           <Button name="live link" value="project-btn" />
+        </div>
+      </div>
+      <div className="project-single-item">
+        <img className="manfree" src={manfree} alt="" />
+        <div className="project-single-details">
+          <div className="project-title-single-manfree">PROJECT OVERVIEW</div>
+          <div className="project-single-description">
+            <p>
+              Manfree is a resounding success that reflects my proficiency in
+              frontend web development. I created a dynamic Software Institute
+              Website for Manfree, leveraging a blend of HTML, CSS, JavaScript,
+              and React.
+            </p>
+            <p>
+              This platform beautifully encapsulates our company's mission and
+              an impressive array of product offerings.
+            </p>
+            <p>
+              My aim was to bolster Manfree's online presence and ensure a
+              stellar user experience across all devices.
+            </p>
+
+            <p>Feel free to check out the Project by visiting the Live Link.</p>
+          </div>
+          <div className="tool-title-single-manfree">TOOLS USED</div>
+          <div className="skills">
+            <div className="skills__skill">HTML</div>
+            <div className="skills__skill">CSS</div>
+            <div className="skills__skill">JavaScript</div>
+            <div className="skills__skill">React</div>
+            <div className="skills__skill">GIT</div>
+            <div className="skills__skill">Github</div>
+          </div>
+          <div className="tool-title-single-manfree">SEE LIVE</div>
+          <div className="projects-btn">
+            <Button name="LIVE LINK" value="live-btn" />
+            <Button name="GO BACK" value="back-btn" />
+          </div>
         </div>
       </div>
     </>

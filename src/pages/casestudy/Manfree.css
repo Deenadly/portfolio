@@ -28,17 +28,95 @@
   font-family: "Gill Sans", sans-serif;
   padding: 1rem;
 }
+.project-single-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.9rem;
+}
+.manfree {
+  margin-top: 45px;
+  margin-bottom: 30px;
+  width: 100%;
+}
+.project-single-details {
+  display: flex;
+  flex-direction: column;
+}
+.project-title-single-manfree {
+  font-size: 18px;
+  font-weight: 650;
+}
+.project-single-description {
+  font-size: 14px;
+  padding: 0.2rem;
+  line-height: 25px;
+  margin-top: 20px;
+}
+.tool-title-single-manfree {
+  margin-top: 30px;
+  font-size: 18px;
+  font-weight: 650;
+  margin-bottom: 25px;
+}
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 25px;
+}
+.skills__skill {
+  padding: 0.7rem 1rem;
+  font-size: 0.9rem;
+  background: rgba(153, 153, 153, 0.2);
+  border-radius: 5px;
+  font-weight: 600;
+  color: #666;
+}
+.projects-btn {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: baseline;
+}
 @media (min-width: 760px) {
   .manfree-single-title {
-    font-size: 35px;
+    font-size: 42px;
     padding-top: 40px;
   }
   .maanfrees-single-item {
-    font-size: 16px;
+    font-size: 19px;
     width: 100%;
-    max-width: 570px;
+    max-width: 750px;
     padding-top: 15px;
     padding-bottom: 30px;
     line-height: 1.6;
+  }
+  .skills {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    margin-bottom: 25px;
+  }
+  .manfree {
+    width: 60%;
+  }
+  .project-single-details {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+  .project-title-single-manfree {
+    margin-top: 40px;
+    font-size: 25px;
+    font-weight: 650;
+  }
+  .project-single-description {
+    font-size: 17px;
+    line-height: 35px;
+    margin-top: 20px;
+  }
+  .projects-btn {
+    display: flex;
+    flex-direction: row;
   }
 }

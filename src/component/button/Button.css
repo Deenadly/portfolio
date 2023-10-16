@@ -47,7 +47,35 @@
   transform: translatey(-3px);
   background: #682cea;
 }
-
+.live-btn {
+  background: #7843e9;
+  padding: 0.9rem 3.4rem;
+  color: #fff;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 800;
+  border: none;
+  transition: transform 0.3s;
+}
+.live-btn:hover {
+  transform: translatey(-3px);
+  background: #682cea;
+}
+.back-btn {
+  background: transparent;
+  color: black;
+  border: 2px solid #7843e9;
+  padding: 0.9rem 3.5rem;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 800;
+  transition: transform 0.3s;
+}
+.back-btn:hover {
+  transform: translatey(-3px);
+}
 @media (min-width: 760px) {
   .contact-btn {
     padding: 1.1rem 2.2rem;
@@ -65,8 +93,14 @@
   }
   .casestudy-btn {
     margin-left: 15px;
-  font-size: 12px;
+    font-size: 12px;
 
     padding: 0.9rem 2.1rem;
+  }
+  .live-btn {
+    padding: 1.1rem 2.9rem;
+  }
+  .back-btn {
+    padding: 1rem 3rem;
   }
 }
