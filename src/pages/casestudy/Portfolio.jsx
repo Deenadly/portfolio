@@ -5,6 +5,7 @@ import "./Portfolio.css";
 import netflix from "../../assets/netflix.png";
 import Footer from "../../component/footer/Footer";
 import { Link } from "react-router-dom";
+import Navbar from "../../component/navbar/Navbar";
 
 const Portfolio = () => {
   return (
@@ -17,6 +18,8 @@ const Portfolio = () => {
           backgroundPosition: "center center",
         }}
       >
+        <Navbar />
+
         <div className="portfolio-single-content">
           <div className="portfolio-single-title">PORTFOLIO</div>
           <div className="portfolio-single-item">

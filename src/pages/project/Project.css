@@ -96,6 +96,7 @@
 @media (min-width: 940px) {
   .project-title {
     margin-bottom: 3.2rem;
+    padding-top: 100px;
   }
   .project-title-manfree {
     font-size: 22px;

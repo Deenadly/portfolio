@@ -9,6 +9,8 @@ import query from "../../assets/query.png";
 import router from "../../assets/router.png";
 import git from "../../assets/gith.png";
 import Button from "../../component/button/Button";
+import { Link } from "react-scroll";
+
 const About = () => {
   return (
     <>
@@ -49,7 +51,9 @@ const About = () => {
               matches my skills and experience then don't hesitate to contact
               me.
             </div>
-            <Button name="CONTACT" value="contact-btn" />
+            <Link to={"/footer"} smooth={true} duration={500}>
+              <Button name="CONTACT" value="contact-btn" />
+            </Link>
           </div>
           <div className="skillss">
             <h3 className="tittle-skill">MY SKILLS</h3>

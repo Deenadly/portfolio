@@ -5,6 +5,7 @@ import "./Netflix.css";
 import netflix from "../../assets/netflix.png";
 import Footer from "../../component/footer/Footer";
 import { Link } from "react-router-dom";
+import Navbar from "../../component/navbar/Navbar";
 
 const Netflix = () => {
   return (
@@ -17,6 +18,8 @@ const Netflix = () => {
           backgroundPosition: "center center",
         }}
       >
+        <Navbar />
+
         <div className="netflix-single-content">
           <div className="netflix-single-title">NETFLIX-CLONE</div>
           <div className="netflix-single-item">

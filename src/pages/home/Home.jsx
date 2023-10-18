@@ -11,6 +11,8 @@ import gmail from "../../assets/gmail.png";
 import Project from "../project/Project";
 import Footer from "../../component/footer/Footer";
 import Navbar from "../../component/navbar/Navbar";
+import { Link } from "react-scroll";
+
 const Home = () => {
   return (
     <>
@@ -69,7 +71,9 @@ const Home = () => {
             and Web Applications that leads to the success of the overall
             product.
           </div>
-          <Button name="projects" value="project-btn" />
+          <Link to={"/project"} smooth={true} duration={500}>
+            <Button name="projects" value="project-btn" />
+          </Link>
           <div className="mouse-con">
             <div className="mouse"></div>
           </div>
