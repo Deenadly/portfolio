@@ -12,7 +12,7 @@ import Button from "../../component/button/Button";
 const About = () => {
   return (
     <>
-      <div className="about-container">
+      <div name="/about" className="about-container">
         <p className="about-title">ABOUT ME</p>
         <div className="line-container">
           <div className="line"></div>

@@ -7,7 +7,7 @@ import github from "../../assets/github.png";
 import gmail from "../../assets/gmail.png";
 const Footer = () => {
   return (
-    <div className="Footer-container">
+    <div name="/footer" className="Footer-container">
       <div className="Footer-items">
         <div className="Footer-social">
           <div className="Footer-social-title">SOCAIL</div>

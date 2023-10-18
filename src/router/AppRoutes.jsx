@@ -7,13 +7,15 @@ import Footer from "../component/footer/Footer";
 import Manfree from "../pages/casestudy/Manfree";
 import Netflix from "../pages/casestudy/Netflix";
 import Portfolio from "../pages/casestudy/Portfolio";
-import ScrollToTop from "../component/scrolltotop";
+import ScrollToTop from "../component/scrolltotop/Scrolltotop";
+import Navbar from "../component/navbar/Navbar";
 
 const AppRoutes = () => {
   return (
     <div>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/navbar" element={<Navbar />} />
         <Route path="/about" element={<About />} />
         <Route path="/project" element={<Project />} />
         <Route path="/footer" element={<Footer />} />

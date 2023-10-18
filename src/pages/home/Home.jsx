@@ -10,10 +10,12 @@ import github from "../../assets/github.png";
 import gmail from "../../assets/gmail.png";
 import Project from "../project/Project";
 import Footer from "../../component/footer/Footer";
+import Navbar from "../../component/navbar/Navbar";
 const Home = () => {
   return (
     <>
       <div
+        name="/"
         className="home-container"
         style={{
           backgroundSize: "cover",
@@ -21,6 +23,8 @@ const Home = () => {
           backgroundPosition: "center center",
         }}
       >
+        <Navbar />
+
         <div className="social-links">
           <a
             href="https://www.linkedin.com/in/deenadhayalan-dev/"
