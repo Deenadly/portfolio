@@ -4,6 +4,7 @@ import banner from "../../assets/bg1.jpg";
 import "./Netflix.css";
 import netflix from "../../assets/netflix.png";
 import Footer from "../../component/footer/Footer";
+import { Link } from "react-router-dom";
 
 const Netflix = () => {
   return (
@@ -22,7 +23,12 @@ const Netflix = () => {
             This page features the case study of the Netflix clone project,
             encompassing the Project Overview, Tools Utilized, and live link.
           </div>
-          <Button name="live link" value="project-btn" />
+          <Link
+            to={"https://netflix-clone-two-fawn.vercel.app/"}
+            target="_blank"
+          >
+            <Button name="live link" value="project-btn" />
+          </Link>
         </div>
       </div>
       <div className="project-single-item">
@@ -59,8 +65,15 @@ const Netflix = () => {
           </div>
           <div className="tool-title-single-netflix">SEE LIVE</div>
           <div className="projects-btn">
-            <Button name="LIVE LINK" value="live-btn" />
-            <Button name="GO BACK" value="back-btn" />
+            <Link
+              to={"https://netflix-clone-two-fawn.vercel.app/"}
+              target="_blank"
+            >
+              <Button name="LIVE LINK" value="live-btn" />
+            </Link>
+            <Link to={"/"}>
+              <Button name="GO BACK" value="back-btn" />
+            </Link>
           </div>
         </div>
       </div>

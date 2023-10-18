@@ -3,7 +3,7 @@ import "./Project.css";
 import manfree from "../../assets/manfree.png";
 import netflix from "../../assets/netflix.png";
 import Button from "../../component/button/Button";
-
+import { Link } from "react-router-dom";
 const Project = () => {
   return (
     <>
@@ -29,7 +29,9 @@ const Project = () => {
                 and React, showcasing our company's mission and our product
                 offerings.
               </div>
-              <Button name="case study" value="casestudy-btn" />
+              <Link to="/manfree">
+                <Button name="case study" value="casestudy-btn" />
+              </Link>
             </div>
           </div>
           <div className="project-item">
@@ -43,7 +45,9 @@ const Project = () => {
                 and igniting my passion for creating captivating web
                 experiences.
               </div>
-              <Button name="case study" value="casestudy-btn" />
+              <Link to="/netflix">
+                <Button name="case study" value="casestudy-btn" />
+              </Link>
             </div>
           </div>
           <div className="project-item">
@@ -57,7 +61,9 @@ const Project = () => {
                 development.it's a visual narrative of my dedication to design
                 and development.
               </div>
-              <Button name="case study" value="casestudy-btn" />
+              <Link to="/portfolio">
+                <Button name="case study" value="casestudy-btn" />
+              </Link>
             </div>
           </div>
           <div></div>

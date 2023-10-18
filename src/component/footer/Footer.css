@@ -64,6 +64,7 @@
   .Footer-items {
     display: flex;
     flex-direction: row-reverse;
+    justify-content: space-between;
     padding: 2.5rem 0;
   }
   .footer-lower {
@@ -96,7 +97,7 @@
   .Footer-items {
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-between;
+    justify-content:space-between;
     padding: 4.5rem 0;
   }
   .Footer-about-title {

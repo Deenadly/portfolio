@@ -7,6 +7,7 @@ import Footer from "../component/footer/Footer";
 import Manfree from "../pages/casestudy/Manfree";
 import Netflix from "../pages/casestudy/Netflix";
 import Portfolio from "../pages/casestudy/Portfolio";
+import ScrollToTop from "../component/scrolltotop";
 
 const AppRoutes = () => {
   return (
@@ -21,6 +22,7 @@ const AppRoutes = () => {
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="*" element={<h1>Not Found 404</h1>} />
       </Routes>
+      <ScrollToTop />
     </div>
   );
 };

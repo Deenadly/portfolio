@@ -4,6 +4,7 @@ import banner from "../../assets/bg1.jpg";
 import "./Manfree.css";
 import manfree from "../../assets/manfree.png";
 import Footer from "../../component/footer/Footer";
+import { Link } from "react-router-dom";
 
 const Manfree = () => {
   return (
@@ -23,7 +24,12 @@ const Manfree = () => {
             includes the Project Overview, Tools Used and Live Links to the
             official product.
           </div>
-          <Button name="live link" value="project-btn" />
+          <Link
+            to={"https://manfree-by-deenadhayalan.vercel.app"}
+            target="_blank"
+          >
+            <Button name="live link" value="project-btn" />
+          </Link>
         </div>
       </div>
       <div className="project-single-item">
@@ -59,8 +65,15 @@ const Manfree = () => {
           </div>
           <div className="tool-title-single-manfree">SEE LIVE</div>
           <div className="projects-btn">
-            <Button name="LIVE LINK" value="live-btn" />
-            <Button name="GO BACK" value="back-btn" />
+            <Link
+              to={"https://manfree-by-deenadhayalan.vercel.app"}
+              target="_blank"
+            >
+              <Button name="LIVE LINK" value="live-btn" />
+            </Link>
+            <Link to={"/"}>
+              <Button name="GO BACK" value="back-btn" />
+            </Link>
           </div>
         </div>
       </div>

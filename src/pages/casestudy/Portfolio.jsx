@@ -4,6 +4,7 @@ import banner from "../../assets/bg1.jpg";
 import "./Portfolio.css";
 import netflix from "../../assets/netflix.png";
 import Footer from "../../component/footer/Footer";
+import { Link } from "react-router-dom";
 
 const Portfolio = () => {
   return (
@@ -23,7 +24,12 @@ const Portfolio = () => {
             providing an in-depth Project Overview and offering a direct link to
             explore my work.
           </div>
-          <Button name="live link" value="project-btn" />
+          <Link
+            to={"https://manfree-by-deenadhayalan.vercel.app"}
+            target="_blank"
+          >
+            <Button name="live link" value="project-btn" />
+          </Link>
         </div>
       </div>
       <div className="project-single-item">
@@ -62,8 +68,15 @@ const Portfolio = () => {
           </div>
           <div className="tool-title-single-portfolio">SEE LIVE</div>
           <div className="projects-btn">
-            <Button name="LIVE LINK" value="live-btn" />
-            <Button name="GO BACK" value="back-btn" />
+            <Link
+              to={"https://manfree-by-deenadhayalan.vercel.app"}
+              target="_blank"
+            >
+              <Button name="LIVE LINK" value="live-btn" />
+            </Link>
+            <Link to={"/"}>
+              <Button name="GO BACK" value="back-btn" />
+            </Link>
           </div>
         </div>
       </div>

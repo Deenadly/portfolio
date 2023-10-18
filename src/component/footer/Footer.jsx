@@ -58,7 +58,7 @@ const Footer = () => {
       </div>
       <div className="footer-lower">
         © Copyright2023 Made by {""}
-        <a rel="noreferrer" target="_blank" href="https://rammaheshwari.com">
+        <a rel="noreferrer" target="_blank" href="/">
           Deena Dhayalan
         </a>
       </div>
