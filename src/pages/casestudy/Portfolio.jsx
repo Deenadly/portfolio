@@ -2,10 +2,10 @@ import React from "react";
 import Button from "../../component/button/Button";
 import banner from "../../assets/bg1.jpg";
 import "./Portfolio.css";
-import netflix from "../../assets/netflix.png";
+import portfolio from "../../assets/Portfolio.png";
 import Footer from "../../component/footer/Footer";
 import { Link } from "react-router-dom";
-import Navbar from "../../component/navbar/Navbar";
+import Nav from "../../component/Navbar casestudy/NAV";
 
 const Portfolio = () => {
   return (
@@ -18,8 +18,7 @@ const Portfolio = () => {
           backgroundPosition: "center center",
         }}
       >
-        <Navbar />
-
+        <Nav />
         <div className="portfolio-single-content">
           <div className="portfolio-single-title">PORTFOLIO</div>
           <div className="portfolio-single-item">
@@ -27,16 +26,13 @@ const Portfolio = () => {
             providing an in-depth Project Overview and offering a direct link to
             explore my work.
           </div>
-          <Link
-            to={"https://manfree-by-deenadhayalan.vercel.app"}
-            target="_blank"
-          >
+          <Link to={"/"} target="_blank">
             <Button name="live link" value="project-btn" />
           </Link>
         </div>
       </div>
       <div className="project-single-item">
-        <img className="portfolio" src={netflix} alt="" />
+        <img className="portfolio" src={portfolio} alt="" />
         <div className="project-single-details">
           <div className="project-title-single-portfolio">PROJECT OVERVIEW</div>
           <div className="project-single-description">
@@ -71,10 +67,7 @@ const Portfolio = () => {
           </div>
           <div className="tool-title-single-portfolio">SEE LIVE</div>
           <div className="projects-btn">
-            <Link
-              to={"https://manfree-by-deenadhayalan.vercel.app"}
-              target="_blank"
-            >
+            <Link to={"/"} target="_blank">
               <Button name="LIVE LINK" value="live-btn" />
             </Link>
             <Link to={"/"}>

@@ -57,6 +57,7 @@
 }
 .navbar-list-content a {
   padding: 1rem;
+  text-decoration: none;
 }
 .navbar-list-content a:hover {
   background-color: rgba(120, 67, 233, 2);

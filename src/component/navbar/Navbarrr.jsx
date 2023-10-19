@@ -4,9 +4,11 @@ import logo from "../../assets/symbolD.png";
 import { Link } from "react-scroll";
 import { AiOutlineMenu } from "react-icons/ai";
 import { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 
-const Navbar2 = () => {
+const Navbar = () => {
   const [show, setShow] = useState(false);
+  const navigate = useNavigate();
 
   useEffect(() => {
     const handleScreen = () => {
@@ -22,10 +24,14 @@ const Navbar2 = () => {
     handleScreen();
     window.addEventListener("resize", handleScreen);
   }, []);
+
+  const handleclickhome = () => {
+    navigate("/");
+  };
   return (
     <div className="navbar">
       <div className="navbar-container">
-        <div className="logo-parent">
+        <div className="logo-parent" onClick={handleclickhome}>
           <img className="navbar-logo" src={logo} alt="logo" />
           <p className="navbar-title">DEENA DHAYALAN</p>
         </div>
@@ -34,8 +40,17 @@ const Navbar2 = () => {
             <AiOutlineMenu className="navbar-icon" />
           </div>
           <div id="myElement">
-            <a href="/">HOME</a>
-            <a href={"/about"}>ABOUT</a>
+            <Link
+              to={"/"}
+              smooth={true}
+              duration={500}
+              onClick={handleclickhome}
+            >
+              HOME
+            </Link>
+            <Link to={"/about"} smooth={true} duration={500}>
+              ABOUT
+            </Link>
             <Link to={"/project"} smooth={true} duration={500}>
               PROJECTS
             </Link>
@@ -63,4 +78,4 @@ const Navbar2 = () => {
     </div>
   );
 };
-export default Navbar2;
+export default Navbar;

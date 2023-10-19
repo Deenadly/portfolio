@@ -5,7 +5,7 @@ import "./Manfree.css";
 import manfree from "../../assets/manfree.png";
 import Footer from "../../component/footer/Footer";
 import { Link } from "react-router-dom";
-import Navbar from "../../component/navbar/Navbar";
+import Nav from "../../component/Navbar casestudy/NAV";
 
 const Manfree = () => {
   return (
@@ -18,7 +18,7 @@ const Manfree = () => {
           backgroundPosition: "center center",
         }}
       >
-        <Navbar />
+        <Nav />
 
         <div className="manfree-single-content">
           <div className="manfree-single-title">MANFREE TECHNOLOGIES</div>

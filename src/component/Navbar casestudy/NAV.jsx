@@ -1,7 +1,6 @@
 import React from "react";
-import "./Navbar.css";
+import "./NAV.css";
 import logo from "../../assets/symbolD.png";
-import { Link } from "react-scroll";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
@@ -39,73 +38,23 @@ const Nav = () => {
             )}
           </div>
           <div id="myElement">
-            <Link
-              to={"/"}
-              smooth={true}
-              duration={500}
+            <a
+              href={"/"}
               onClick={() => {
                 handleclickhome();
                 handleNavItemClick();
               }}
             >
               HOME
-            </Link>
-            <Link
-              to={"/about"}
-              smooth={true}
-              duration={500}
-              onClick={handleNavItemClick}
-            >
-              ABOUT
-            </Link>
-            <Link
-              to={"/project"}
-              smooth={true}
-              duration={500}
-              onClick={handleNavItemClick}
-            >
-              PROJECTS
-            </Link>
-            <Link
-              to={"/footer"}
-              smooth={true}
-              duration={500}
-              onClick={handleNavItemClick}
-            >
-              CONTACT
-            </Link>
+            </a>
           </div>
         </div>
       </div>
       {show && (
         <div className="navbar-list-content">
-          <Link to={"/"} onClick={handleNavItemClick}>
+          <a href={"/"} onClick={handleNavItemClick}>
             HOME
-          </Link>
-          <Link
-            to={"/about"}
-            smooth={true}
-            duration={500}
-            onClick={handleNavItemClick}
-          >
-            ABOUT
-          </Link>
-          <Link
-            to={"/project"}
-            smooth={true}
-            duration={500}
-            onClick={handleNavItemClick}
-          >
-            PROJECTS
-          </Link>
-          <Link
-            to={"/footer"}
-            smooth={true}
-            duration={500}
-            onClick={handleNavItemClick}
-          >
-            CONTACT
-          </Link>
+          </a>
         </div>
       )}
     </div>

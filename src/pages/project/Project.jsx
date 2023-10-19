@@ -2,6 +2,7 @@ import React from "react";
 import "./Project.css";
 import manfree from "../../assets/manfree.png";
 import netflix from "../../assets/netflix.png";
+import portfolio from "../../assets/Portfolio.png";
 import Button from "../../component/button/Button";
 import { Link } from "react-router-dom";
 const Project = () => {
@@ -51,7 +52,7 @@ const Project = () => {
             </div>
           </div>
           <div className="project-item">
-            <img className="manfreer" src={manfree} alt="" />
+            <img className="manfreer" src={portfolio} alt="" />
             <div className="project-details">
               <div className="project-title-manfree">PORTFOLIO</div>
               <div className="project-description">
