@@ -68,7 +68,7 @@ const Netflix = () => {
           <div className="tool-title-single-netflix">SEE LIVE</div>
           <div className="projects-btn">
             <Link
-              to={"https://netflix-clone-two-fawn.vercel.app/"}
+              to={"https://netflix-clone-two-fawn.app/"}
               target="_blank"
             >
               <Button name="LIVE LINK" value="live-btn" />
