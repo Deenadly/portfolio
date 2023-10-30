@@ -25,7 +25,7 @@ const Netflix = () => {
             This page features the case study of the Netflix clone project,
             encompassing the Project Overview, Tools Utilized, and live link.
           </div>
-          <Link to={"https://netflix-clone-two-fawn.app/"} target="_blank">
+          <Link to={"https://netflix-clone-two-fawn.vercel.app/"} target="_blank">
             <Button name="live link" value="project-btn" />
           </Link>
         </div>
@@ -64,7 +64,7 @@ const Netflix = () => {
           </div>
           <div className="tool-title-single-netflix">SEE LIVE</div>
           <div className="projects-btn">
-            <Link to={"https://netflix-clone-two-fawn.app/"} target="_blank">
+            <Link to={"https://netflix-clone-two-fawn.vercel.app/"} target="_blank">
               <Button name="LIVE LINK" value="live-btn" />
             </Link>
             <Link to={"/"}>
