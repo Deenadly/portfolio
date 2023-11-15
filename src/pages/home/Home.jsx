@@ -1,6 +1,6 @@
 import React from "react";
 import banner from "../../assets/bg1.jpg";
-import "./Home.css";
+import "./Home1.css";
 import Button from "../../component/button/Button";
 import About from "../about/About.jsx";
 import linked from "../../assets/linkedin.png";
