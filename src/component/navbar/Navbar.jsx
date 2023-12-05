@@ -67,7 +67,7 @@ const Nav = () => {
               PROJECTS
             </Link>
             <Link
-              to={"/footer"}
+              to={"/contact"}
               smooth={true}
               duration={500}
               onClick={handleNavItemClick}
@@ -99,7 +99,7 @@ const Nav = () => {
             PROJECTS
           </Link>
           <Link
-            to={"/footer"}
+            to={"/contact"}
             smooth={true}
             duration={500}
             onClick={handleNavItemClick}

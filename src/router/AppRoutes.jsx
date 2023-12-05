@@ -9,6 +9,7 @@ import Netflix from "../pages/casestudy/Netflix";
 import Portfolio from "../pages/casestudy/Portfolio";
 import ScrollToTop from "../component/scrolltotop/Scrolltotop";
 import Navbar from "../component/navbar/Navbar";
+import Contact from "../pages/contact/Contact";
 
 const AppRoutes = () => {
   return (
@@ -18,6 +19,7 @@ const AppRoutes = () => {
         <Route path="/navbar" element={<Navbar />} />
         <Route path="/about" element={<About />} />
         <Route path="/project" element={<Project />} />
+        <Route path="/contact" element={<Contact />} />
         <Route path="/footer" element={<Footer />} />
         <Route path="/manfree" element={<Manfree />} />
         <Route path="/netflix" element={<Netflix />} />

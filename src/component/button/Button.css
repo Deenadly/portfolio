@@ -76,6 +76,22 @@
 .back-btn:hover {
   transform: translatey(-3px);
 }
+.submit-btn {
+  background: #7843e9;
+  padding: 1rem 4.2rem;
+  color: #fff;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  font-size: 13px;
+  font-weight: 700;
+  border: none;
+  text-transform: uppercase;
+  transition: transform 0.3s;
+}
+.submit-btn:hover {
+  transform: translatey(-3px);
+  background: #682cea;
+}
 @media (min-width: 760px) {
   .contact-btn {
     padding: 1.1rem 2.2rem;
@@ -102,6 +118,10 @@
   .back-btn {
     padding: 1rem 3rem;
   }
+  .submit-btn {
+    margin-left: 415px;
+    padding: 1.2rem 0rem;
+  }
 }
 @media (min-width: 940px) {
   .project-btn {
@@ -112,5 +132,9 @@
   .casestudy-btn {
     font-size: 14px;
     padding: 1.2rem 3rem;
+  }
+  .submit-btn {
+    margin-left: 350px;
+    padding: 1.2rem 0rem;
   }
 }
