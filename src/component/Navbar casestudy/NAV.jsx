@@ -39,6 +39,7 @@ const Nav = () => {
           </div>
           <div id="myElement">
             <a
+              
               href={"/"}
               onClick={() => {
                 handleclickhome();
@@ -52,7 +53,7 @@ const Nav = () => {
       </div>
       {show && (
         <div className="navbar-list-content">
-          <a href={"/"} onClick={handleNavItemClick}>
+          <a  href={"/"} onClick={handleNavItemClick}>
             HOME
           </a>
         </div>

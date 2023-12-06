@@ -38,12 +38,11 @@
   font-weight: 700;
   letter-spacing: 2px;
   background-color: white;
-  padding: 1rem;
+  padding: 0.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
-  gap: 15px;
 }
 #myElement {
   display: none;
@@ -61,6 +60,10 @@
 .navbar-list-content a:hover {
   background-color: rgba(120, 67, 233, 2);
 }
+.res {
+  text-decoration: none;
+  color: black;
+}
 @media (min-width: 760px) {
   .navbar-container {
     padding: 0.7rem 0.5rem;
@@ -70,14 +73,14 @@
   }
   #myElement {
     display: block;
-    gap: 2rem;
+    gap: 1.1rem;
     cursor: pointer;
     display: flex;
     font-size: 12px;
     font-weight: 700;
     letter-spacing: 1px;
     flex-direction: row;
-    margin-right: 25px;
+    margin-right: 10px;
   }
 }
 @media (min-width: 940px) {

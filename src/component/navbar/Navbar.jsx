@@ -5,8 +5,9 @@ import { Link } from "react-scroll";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
-const Nav = () => {
+const Navbar = () => {
   const [show, setShow] = useState(false);
   const navigate = useNavigate();
 
@@ -58,14 +59,9 @@ const Nav = () => {
             >
               ABOUT
             </Link>
-            <Link
-              to={"/resume"}
-              smooth={true}
-              duration={500}
-              onClick={handleNavItemClick}
-            >
+            <NavLink className="res" to={"/resume"}>
               RESUME
-            </Link>
+            </NavLink>
             <Link
               to={"/project"}
               smooth={true}
@@ -98,14 +94,9 @@ const Nav = () => {
           >
             ABOUT
           </Link>
-          <Link
-            to={"/resume"}
-            smooth={true}
-            duration={500}
-            onClick={handleNavItemClick}
-          >
+          <NavLink className="res" to={"/resume"}>
             RESUME
-          </Link>
+          </NavLink>
           <Link
             to={"/project"}
             smooth={true}
@@ -128,4 +119,4 @@ const Nav = () => {
   );
 };
 
-export default Nav;
+export default Navbar;
