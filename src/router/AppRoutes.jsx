@@ -10,6 +10,7 @@ import Portfolio from "../pages/casestudy/Portfolio";
 import ScrollToTop from "../component/scrolltotop/Scrolltotop";
 import Navbar from "../component/navbar/Navbar";
 import Contact from "../pages/contact/Contact";
+import Resume from "../pages/resume/Resume";
 
 const AppRoutes = () => {
   return (
@@ -20,6 +21,7 @@ const AppRoutes = () => {
         <Route path="/about" element={<About />} />
         <Route path="/project" element={<Project />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/resume" element={<Resume />} />
         <Route path="/footer" element={<Footer />} />
         <Route path="/manfree" element={<Manfree />} />
         <Route path="/netflix" element={<Netflix />} />

@@ -92,6 +92,35 @@
   transform: translatey(-3px);
   background: #682cea;
 }
+.download-btn {
+  background: #7843e9;
+  padding: 0.9rem 3rem;
+  color: #fff;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 800;
+  border: none;
+  transition: transform 0.3s;
+}
+.download-btn:hover {
+  transform: translatey(-3px);
+  background: #682cea;
+}
+.download-back-btn {
+  background: transparent;
+  color: black;
+  border: 2px solid #7843e9;
+  padding: 0.8rem 3.4rem;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 800;
+  transition: transform 0.3s;
+}
+.back-btn:hover {
+  transform: translatey(-3px);
+}
 @media (min-width: 760px) {
   .contact-btn {
     padding: 1.1rem 2.2rem;
@@ -136,5 +165,12 @@
   .submit-btn {
     margin-left: 350px;
     padding: 1.2rem 0rem;
+  }
+  .download-btn {
+    padding: 1.2rem 3.8rem;
+  }
+  .download-back-btn {
+    padding: 1.1rem 3.8rem;
+
   }
 }

@@ -59,6 +59,14 @@ const Nav = () => {
               ABOUT
             </Link>
             <Link
+              to={"/resume"}
+              smooth={true}
+              duration={500}
+              onClick={handleNavItemClick}
+            >
+              RESUME
+            </Link>
+            <Link
               to={"/project"}
               smooth={true}
               duration={500}
@@ -89,6 +97,14 @@ const Nav = () => {
             onClick={handleNavItemClick}
           >
             ABOUT
+          </Link>
+          <Link
+            to={"/resume"}
+            smooth={true}
+            duration={500}
+            onClick={handleNavItemClick}
+          >
+            RESUME
           </Link>
           <Link
             to={"/project"}
