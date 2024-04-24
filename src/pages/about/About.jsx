@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./About.css";
 import html from "../../assets/html.png";
 import css from "../../assets/css.png";
@@ -10,8 +10,13 @@ import router from "../../assets/router.png";
 import git from "../../assets/gith.png";
 import Button from "../../component/button/Button";
 import { Link } from "react-scroll";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const About = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <>
       <div name="/about" className="about-container">
@@ -26,7 +31,11 @@ const About = () => {
           </p>
         </div>
         <div className="about-content">
-          <div className="about-known">
+          <div
+            className="about-known"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+          >
             <h3 className="tittle-known">GET TO kNOW ME!</h3>
             <div className="known-item">
               I'm a <span>Frontend Web Developer</span> building the Front-end
@@ -55,17 +64,61 @@ const About = () => {
               <Button name="CONTACT" value="contact-btn" />
             </Link>
           </div>
-          <div className="skillss">
+          <div
+            className="skillss"
+            data-aos="fade-in"
+            data-aos-duration="1000"
+          >
             <h3 className="tittle-skill">MY SKILLS</h3>
             <div className="skill-items">
-              <img src={html} alt="" />
-              <img src={css} alt="" />
-              <img src={java} alt="" />
-              <img src={react} alt="" />
-              <img src={redux} alt="" />
-              <img src={router} alt="" />
-              <img src={query} alt="" />
-              <img src={git} alt="" />
+              <img
+                src={html}
+                alt=""
+                data-aos="fade-up"
+                data-aos-duration="300"
+              />
+              <img
+                src={css}
+                alt=""
+                data-aos="fade-up"
+                data-aos-duration="600"
+              />
+              <img
+                src={java}
+                alt=""
+                data-aos="fade-up"
+                data-aos-duration="900"
+              />
+              <img
+                src={react}
+                alt=""
+                data-aos="fade-up"
+                data-aos-duration="1200"
+              />
+              <img
+                src={redux}
+                alt=""
+                data-aos="fade-up"
+                data-aos-duration="1500"
+              />
+              <img
+                src={router}
+                alt=""
+                data-aos="fade-up"
+                data-aos-duration="1800"
+              />
+              <img
+                src={query}
+                alt=""
+                data-aos="fade-up"
+                data-aos-duration="2100"
+              />
+              <img
+                src={git}
+                alt=""
+                data-aos="fade-up"
+                data-aos-duration="2400"
+              />
             </div>
           </div>
         </div>

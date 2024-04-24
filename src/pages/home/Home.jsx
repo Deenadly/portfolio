@@ -1,6 +1,6 @@
 import React from "react";
 import banner from "../../assets/bg1.jpg";
-import "./Home1.css";
+import "./Home.css";
 import Button from "../../component/button/Button";
 import About from "../about/About.jsx";
 import linked from "../../assets/linkedin.png";
@@ -67,7 +67,13 @@ const Home = () => {
         </div>
 
         <div className="home-content">
-          <div className="name-items">HEY, I'M DEENA DHAYALAN</div>
+          <div
+            className="name-items"
+            data-aos="fade-up"
+            
+          >
+            HEY, I'M DEENA DHAYALAN
+          </div>
           <div className="home-items">
             A Frontend focused Web Developer building the Frontend of Websites
             and Web Applications that leads to the success of the overall
