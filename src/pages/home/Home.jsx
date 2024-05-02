@@ -1,13 +1,13 @@
 import React from "react";
-import banner from "../../assets/bg1.jpg";
+import banner from "../../assets/bg1.webp";
 import "./Home.css";
 import Button from "../../component/button/Button";
 import About from "../about/About.jsx";
-import linked from "../../assets/linkedin.png";
-import twitter from "../../assets/twitterx.png";
-import instagram from "../../assets/instagram.png";
-import github from "../../assets/github.png";
-import gmail from "../../assets/gmail.png";
+import linked from "../../assets/linkedin.webp";
+import twitter from "../../assets/twitterx.webp";
+import instagram from "../../assets/instagram.webp";
+import github from "../../assets/github.webp";
+import gmail from "../../assets/gmail.webp";
 import Project from "../project/Project";
 import Footer from "../../component/footer/Footer";
 import Navbar from "../../component/navbar/Navbar";
@@ -69,7 +69,7 @@ const Home = () => {
         <div className="home-content">
           <div
             className="name-items"
-            data-aos="fade-up"
+            data-aos="zoom-out"
             
           >
             HEY, I'M DEENA DHAYALAN

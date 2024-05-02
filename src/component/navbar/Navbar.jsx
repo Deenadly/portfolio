@@ -1,6 +1,6 @@
 import React from "react";
 import "./Navbar.css";
-import logo from "../../assets/symbolD.png";
+import logo from "../../assets/symbolD.webp";
 import { Link } from "react-scroll";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { useState } from "react";

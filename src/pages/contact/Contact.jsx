@@ -1,6 +1,6 @@
 import React from "react";
 import "./Contact.css";
-import banner from "../../assets/bg2.png";
+import banner from "../../assets/bg2.webp";
 import Button from "../../component/button/Button";
 import emailjs from "emailjs-com";
 

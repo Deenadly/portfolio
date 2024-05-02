@@ -1,11 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Project.css";
-import manfree from "../../assets/manfree.png";
-import netflix from "../../assets/netflix.png";
-import portfolio from "../../assets/Portfolio.png";
+import manfree from "../../assets/manfree.webp";
+import netflix from "../../assets/netflix.webp";
+import portfolio from "../../assets/Portfolio.webp";
 import Button from "../../component/button/Button";
 import { Link } from "react-router-dom";
+import AOS from "aos";
+import "aos/dist/aos.css";
 const Project = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <>
       <div name="/project" className="project-container">
@@ -21,8 +26,8 @@ const Project = () => {
         </div>
         <div className="project-list">
           <div className="project-item">
-            <img className="manfreer" src={manfree} alt="" />
-            <div className="project-details">
+            <img className="manfreer" src={manfree} alt="" data-aos="zoom-in" data-aos-duration="600"/>
+            <div className="project-details" data-aos="zoom-in" data-aos-duration="1000">
               <div className="project-title-manfree">MANFREE</div>
               <div className="project-description">
                 manfree is a successful project that I created which have been a
@@ -36,8 +41,8 @@ const Project = () => {
             </div>
           </div>
           <div className="project-item">
-            <img className="manfreer" src={netflix} alt="" />
-            <div className="project-details">
+            <img className="manfreer" src={netflix} alt=""data-aos="zoom-in" data-aos-duration="600" />
+            <div className="project-details" data-aos="zoom-in" data-aos-duration="1000">
               <div className="project-title-manfree">NETFLIX-CLONE</div>
               <div className="project-description">
                 I recreated the official web app of Netflix's streaming platform
@@ -52,8 +57,8 @@ const Project = () => {
             </div>
           </div>
           <div className="project-item">
-            <img className="manfreer" src={portfolio} alt="" />
-            <div className="project-details">
+            <img className="manfreer" src={portfolio} alt="" data-aos="zoom-in" data-aos-duration="600"/>
+            <div className="project-details" data-aos="zoom-in" data-aos-duration="1000">
               <div className="project-title-manfree">PORTFOLIO</div>
               <div className="project-description">
                 I developed my portfolio in an impressive manner to showcase my

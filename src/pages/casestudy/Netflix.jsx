@@ -1,8 +1,8 @@
 import React from "react";
 import Button from "../../component/button/Button";
-import banner from "../../assets/bg1.jpg";
+import banner from "../../assets/bg1.webp";
 import "./Netflix.css";
-import netflix from "../../assets/netflix.png";
+import netflix from "../../assets/netflix.webp";
 import Footer from "../../component/footer/Footer";
 import { Link } from "react-router-dom";
 import Nav from "../../component/Navbar casestudy/NAV";

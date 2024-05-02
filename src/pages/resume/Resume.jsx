@@ -1,7 +1,7 @@
 import React from "react";
 import "./Resume.css";
-import banner from "../../assets/bg2.png";
-import resume from "../../assets/resume.jpg";
+import banner from "../../assets/bg2.webp";
+import resume from "../../assets/resume.webp";
 import { Link } from "react-router-dom";
 import Button from "../../component/button/Button";
 import Footer from "../../component/footer/Footer";

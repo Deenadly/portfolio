@@ -1,10 +1,10 @@
 import React from "react";
 import "./Footer.css";
-import linked from "../../assets/linkedin.png";
-import twitter from "../../assets/twitters.png";
-import instagram from "../../assets/instagram.png";
-import github from "../../assets/github.png";
-import gmail from "../../assets/gmail.png";
+import linked from "../../assets/linkedin.webp";
+import twitter from "../../assets/twitters.webp";
+import instagram from "../../assets/instagram.webp";
+import github from "../../assets/github.webp";
+import gmail from "../../assets/gmail.webp";
 const Footer = () => {
   return (
     <div name="/footer" className="Footer-container">

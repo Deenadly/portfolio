@@ -1,6 +1,6 @@
 import React from "react";
 import "./NAV.css";
-import logo from "../../assets/symbolD.png";
+import logo from "../../assets/symbolD.webp";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
